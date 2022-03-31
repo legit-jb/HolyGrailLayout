@@ -16,6 +16,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: black;
+}
+
+main > *, header, footer {
+  margin: 1px;
+  padding: 10px;
+  /* border-radius: 7px; */
 }
 
 /* flexbox classes */
@@ -27,7 +34,7 @@ body {
 }
 
 .column {
-  flex: 1 0 20%;
+  flex: 1 1 20%;
 }
 
 .card {
